@@ -1,19 +1,12 @@
-## 昨天死活推送不上去，今天一下就推送成功了
+## fundMe智能合约
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+**从Cyfrin处学习**
 
-Foundry consists of:
+- [原课程github](https://github.com/Cyfrin/foundry-fund-me-cu)
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+- [Cyfrin Updraft](https://updraft.cyfrin.io/courses)
 
-## Documentation
-
-https://book.getfoundry.sh/
-
-## Usage
+## 常用命令行指令
 
 ### Build
 
