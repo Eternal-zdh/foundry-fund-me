@@ -8,10 +8,12 @@
 
 ## 常用命令行指令
 
-### Build
+### 文件夹操作
 
 ```shell
-$ forge build
+cd ..                            //退回上个文件夹
+ls                               //查看文件夹下的所有文件
+code foundry-simple-storage/     //跳转并打开文件夹下的项目
 ```
 
 ### Test
@@ -50,10 +52,10 @@ $ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --pri
 $ cast <subcommand>
 ```
 
-### Help
+### git相关操作
 
 ```shell
-$ forge --help
-$ anvil --help
-$ cast --help
+git add .
+git commit -m "描述你的更改"
+git push -u origin master 
 ```
