@@ -49,6 +49,7 @@ contract HelperConfig is Script{
             return activeNetworkConfig;
         }
 
+        //这是用来获取价格的，部署时会在fundme之前部署，控制台上也会出现
         vm.startBroadcast();
         MockV3Aggregator mockPriceFeed = new MockV3Aggregator(
             DECIMALS,
