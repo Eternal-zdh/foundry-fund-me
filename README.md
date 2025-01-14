@@ -11,21 +11,23 @@
 ### 文件夹操作
 
 ```shell
-cd ..                            //退回上个文件夹
-ls                               //查看文件夹下的所有文件
-code foundry-simple-storage/     //跳转并打开文件夹下的项目
+$ cd ..                            //退回上个文件夹
+$ ls                               //查看文件夹下的所有文件
+$ code foundry-simple-storage/     //跳转并打开文件夹下的项目
 ```
 
-### Test
+### 加载env资源
 
 ```shell
-$ forge test
+$ source .env
+$ echo $SEPOLIA_RPC_URL
 ```
 
-### Format
+### foundry编译脚本
 
 ```shell
-$ forge fmt
+$ forge build
+$ forge compile
 ```
 
 ### Gas Snapshots
@@ -55,7 +57,9 @@ $ cast <subcommand>
 ### git相关操作
 
 ```shell
-git add .
-git commit -m "描述你的更改"
-git push -u origin master 
+$ git add .
+$ git commit -m "描述你的更改"
+$ git push -u origin master 
+$ git remote -v 
+$ git log
 ```
